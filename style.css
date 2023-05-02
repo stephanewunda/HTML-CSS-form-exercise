@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px auto;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* letter-spacing: 1px; */
+}
+
+.container{
+    margin: auto;
+    width:50%;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 20px 20px 0px rgba(0, 0, 0, .7);
+}
+
+input[type='text'],
+input[type= 'password']{
+    width:100%;
+    padding: 15px;margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: whitesmoke;
+}
+
+input[type='text']:focus,
+input[type= 'password']:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.registerbtn{
+    background-color: teal;
+    color:#fff;
+    border:none;
+    padding: 16px;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    opacity: .8;
+
+}
+
+.registerbtn:hover{
+   opacity: 1;
+}
